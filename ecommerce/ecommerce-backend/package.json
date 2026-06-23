@@ -1,0 +1,21 @@
+{
+  "name": "ecommerce-backend",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "watch": "bun --watch src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@scalar/express-api-reference": "^0.10.4",
+    "express": "^5.2.1"
+  }
+}
